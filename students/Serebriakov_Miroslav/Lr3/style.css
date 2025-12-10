@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    height: 950px;
+ }
+
+ .card {
+    width: 540px;
+    background-color: #49005c;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  .card img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 80px;
+  }
+  
+  .card-body {
+    height: 200px;
+  }
+  
+  .card-title {
+    text-align: right;
+    color:#ff00d4;
+    font-size: 24px;
+  }
+  
+  .card-text {
+    text-align: center;
+    color:#ffffff;
+    font-size: 18px;
+  }
+
+  .text1 {
+    text-align: left;
+    color:#e100ff;
+    font-size: 32px;
+  }
+  
+  .text2 {
+    position: absolute;
+    text-align: left;
+    color:#ffffff;
+    font-size: 18px;
+  }
+
+  .btn-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn-primary {
+    color: #ffffff;
+    background-color: #6c0081;
+    border-color: #000000;
+    border-radius: 0px;
+    text-align: center;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff00ea; 
+    border-color: #ffffff;
+  }
+
+   #liveToastBtn {
+    width:600px;
+  }
+
+   #back-button {
+    right: 328px;
+    bottom: 298px;
+    width: 600px;
+    position: absolute;
+    z-index: 1;
+    background-color: #4d003c; 
+    border-color: #000000;
+  }
+
+  #back-button:hover {
+    background-color: #62006b; 
+    border-color: #000000;
+  }
+
+  .header {
+    background-color: #400053;
+    color: #ffffff;
+    padding: 10px 100px;
+    text-align: right;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    border-bottom-left-radius: 80px;
+  }
+
+  .header h1 {
+    font-size: 32px;
+  }
+
+  .footer {
+    background-color: #400053;
+    color: #CE1141;
+    padding: 5px 100px;
+    text-align: right;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    border-top-left-radius: 80px;
+    text-size-adjust: 10px;
+  }
+
+  .footer h1{
+    font-size: 25px;
+  }
+
+  .toast {
+    background-color: #8d0076;
+    color: #ffffff;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .toast-header {
+    background-color: #45004b;
+    color: #ffffff;
+  }
